@@ -31,7 +31,7 @@ I've included an interactive HTML BOM and population guide [here](bom/ibom.html)
 * USB input: You obviously want to have this if you want to power the board from USB and/or use the onboard debugger (in this case you might also want to consider populating the TVS protection diode)
 * Debugger: Obviously you only need this if you'd like to have the onboard debugger. The purpose of the SWD connector and J6 is to connect the SWD lines to the onboard debugger but also for standalone conversion if you have an external debugger or you'd like to use this debugger for external devices -- so many choices!
 * LEDs: Who doesn't like blinkies? The 4 MCU leds are indicators for powered MCUs the other ones can either be used for the debugger or alternatively for any of the MCUs.
-* The MCUs are completely optional and fully broken so populate whichever you want. The capacitors next to the MCUs should be populated for decoupling. Most likely you also want to have the matching pins on the backside; those can either be long enough straight headers or SMD headers.
+* The MCUs are completely optional and fully broken out to commonly used 2.54mm spacing so populate and use whichever you want to use. The capacitors next to the MCUs should be populated for decoupling. Most likely you also want to have the matching pins on the backside; those can either be long enough straight headers or SMD headers.
 
 ## Can I reuse the hardware for my own ideas?
 
