@@ -23,7 +23,7 @@ In addition another STM32F042F6P6 can be populated as DAPlink compatible debugge
 
 I've included an interactive HTML BOM and population guide [here](bom/ibom.html).
 
-If you happen to have one of the 10 first run boards you will need to add a shame wire from pad 15 of the DAPlink MCU to ground; if you want to populate and use the onboard debugger, that is. If you build the current version 1.1; there no known errata.
+**NOTE**: If you happen to have one of the 10 first run boards you will need to add a shame wire from pad 15 of the DAPlink MCU to ground -- if you want to populate and use the onboard debugger, that is. If you work with the published version 1.1 there're no known errata.
 
 ### Functional blocks
 
